@@ -60,7 +60,7 @@ input{
 	
 }
 
-a{	
+a,button{	
 	margin-top:10px;
 	padding:10px;
 	background-color:lightblue;
@@ -71,6 +71,9 @@ a{
 }
 
 a:hover{
-	background-color:blue;
+	opacity:50;
+}
+button:hover{
+	opacity:50;
 }
 

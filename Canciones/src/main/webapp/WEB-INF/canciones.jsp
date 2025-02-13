@@ -27,7 +27,14 @@
 		<tr>
 			<td>${cancion.titulo}</td>
 			<td>${cancion.artista}</td>
-			<td><a href="/canciones/detalle/${cancion.id}">Detalle</a></td>
+			<td style="display:flex; justify-content:center; align-items:center ; gap:20px">
+				<a href="/canciones/detalle/${cancion.id}">Detalle</a>
+			 	<a style="background-color:green" href="/canciones/formulario/editar/${cancion.id}">Editar</a>
+			 	<form style="width:100px; height:50px ; padding:0 ; background-color:red" action="/canciones/eliminar/${cancion.id}" method="post">
+					<input type="hidden" name="_method" value="DELETE"/>
+					<button style="background-color:red; color:white ; border:none" >Eliminar cancion</button>
+				</form>
+			 </td>
 		
 		</tr>
 	
