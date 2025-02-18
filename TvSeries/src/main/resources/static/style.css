@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+*{
+	padding:0;
+	margin:0;
+
+}
+
+
+
+header{
+	padding:20px;
+    background-color:#3b3838;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	
+}
+header h1{
+    color: #fff;
+    font-size: 30px;
+}
+header div{
+    display: flex;
+    gap:20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10px;
+
+}
+
+main{
+    margin: 0 auto;
+    max-width: 80vw;
+    
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover{
+    color: #8d6b6b;
+    
+}
+
+.a-main{
+    background-color: #8d6b6b;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+.a-main:hover{
+    background-color: #3b3838;
+}
+.content-serie{
+    display: flex;
+    gap:20px;
+    border-radius: 20px;
+    background-color: #ebe1e1;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.div-serie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    
+}
+
+.div-serie div{
+
+    display: flex;
+    gap: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ebe1e1;
+    border-radius: 20px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    width:95%;
+
+}
+label{
+    width:95%;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #8d6b6b;
+    color: white;
+}
+.button:hover{
+    background-color: #3b3838;
+    color: white;
+
+}
+
+h2{
+    text-align: center;
+}
+#div-detalle{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #bea7a7;
+    border-radius: 20px;
+}
+
+#div-detalle div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#btnEliminar{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #b74444;
+    color: white;
+}
+#btnEliminar:hover{
+    background-color: #df0000;
+    color: white;
+}
